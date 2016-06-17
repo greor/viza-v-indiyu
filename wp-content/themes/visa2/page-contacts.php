@@ -2,9 +2,9 @@
 /*
 Template Name: Contacts
 */
-?>
 
-<?php get_header(); ?>
+get_header();
+?>
 
 <?php include(TEMPLATEPATH.'/page-title-block.php'); ?>
 

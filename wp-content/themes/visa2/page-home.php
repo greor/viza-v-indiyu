@@ -2,9 +2,9 @@
 /*
 Template Name: Home
 */
-?>
 
-<?php get_header(); ?>
+get_header();
+?>
 
 <?php masterslider(1); ?>
 

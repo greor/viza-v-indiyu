@@ -2,9 +2,9 @@
 /*
 Template Name: 404
 */
-?>
 
-<?php get_header(); ?>
+get_header();
+?>
 
 <div class="page_title2 sty2">
   <div class="container">
