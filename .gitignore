@@ -1,0 +1,11 @@
+.DS_Store
+.svn
+code_coverage
+*~
+*.swp
+coverage
+nbproject
+
+/wp-config.php
+/application/config/database.php
+/application/config/database.php

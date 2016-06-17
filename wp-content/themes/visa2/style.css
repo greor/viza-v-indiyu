@@ -1,0 +1,62 @@
+/*
+Theme Name: visa2
+Theme URI: 
+Author: 
+Author URI: 
+Description: 
+Version: 1.0
+*/
+
+
+.text-center {
+  text-align: center;
+}
+
+.stcode_descr {
+  margin: 0 auto;
+  width: 40%;
+}
+.stcode_descr ol {
+  padding-left: 20px;
+  list-style-type: decimal;
+}
+
+table.table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+.table.table-bordered>tbody>tr>td,
+.table.table-bordered>tbody>tr>th,
+.table.table-bordered>tfoot>tr>td,
+.table.table-bordered>tfoot>tr>th,
+.table.table-bordered>thead>tr>td,
+.table.table-bordered>thead>tr>th {
+  padding: 8px;
+  line-height: 1.42857143;
+  vertical-align: middle;
+  border-top: 1px solid #ddd;
+}
+
+.posts-wrap::after,
+.posts-wrap::before {
+  display: table;
+  content: "";
+}
+
+.posts-wrap::after {
+  clear: both;
+}
+
+#vk_comments {
+  margin-top: 25px;
+}
+
+.feature_section6 .newsletter p {
+  padding: 0;
+  margin: 0;
+}
+
+.feature_section6 .newsletter .wpcf7-form-control-wrap {
+  display: block;
+}

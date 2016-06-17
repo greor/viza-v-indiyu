@@ -1,0 +1,253 @@
+/* Responsive CSS Styles Table of Contents */
+
+@media only screen and (min-width: 1000px) and (max-width: 1169px){
+.container {
+	width: 1000px;
+	margin: auto;
+}
+
+.top_nav .left {
+	width: 50%;
+}
+.top_nav .right {
+	width: 50%;
+}
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 999px){
+.container {
+	width: 747px;
+	margin: auto;
+}
+
+.logo {
+	width: 50%;
+}
+.menu_main {
+	width: 97%;
+	position: absolute;
+}
+
+.top_nav .left {
+	width: 50%;
+}
+.top_nav .right {
+	width: 50%;
+}
+
+}
+
+
+@media only screen and (min-width: 640px) and (max-width: 767px){
+/* columns */
+.one_half, .one_third, .one_fourth, .two_third, .three_fourth, .one_fifth, .onecol_forty, .onecol_sixty, .onecol_thirtyfive,
+.one_half_less, .one_third_less, .one_fourth_less, .two_third_less, .three_fourth_less, .one_fifth_less, .onecol_forty_less, .onecol_sixty_less, .onecol_thirtyfive_less {
+	position: relative;
+	margin-right: 0%;
+	float: left;
+}
+.one_full,
+.one_half,
+.one_third,
+.one_fourth,
+.one_fifth,
+.two_third,
+.three_fourth,
+.onecol_forty,
+.onecol_sixty,
+.onecol_thirtyfive,
+.one_full_less,
+.one_half_less,
+.one_third_less,
+.one_fourth_less,
+.one_fifth_less,
+.two_third_less,
+.three_fourth_less,
+.onecol_forty_less,
+.onecol_sixty_less,
+.onecol_thirtyfive_less {
+	width: 100%;
+	margin-bottom: 50px;
+}
+.last {
+	margin-right: 0 !important;
+	margin-bottom: 0 !important;
+}
+
+
+.container {
+	width: 590px;
+	margin: auto;
+}
+
+.logo {
+	width: 50%;
+}
+.menu_main {
+	width: 93%;
+	position: absolute;
+}
+
+.top_nav .left {
+	width: 60%;
+}
+.top_nav .right {
+	width: 40%;
+}
+
+.slidermar40 {
+	margin-top: 25px;
+}
+
+
+}
+
+
+@media only screen and (min-width: 480px) and (max-width: 639px){
+
+/* columns */
+.one_half, .one_third, .one_fourth, .two_third, .three_fourth, .one_fifth, .onecol_forty, .onecol_sixty, .onecol_thirtyfive,
+.one_half_less, .one_third_less, .one_fourth_less, .two_third_less, .three_fourth_less, .one_fifth_less, .onecol_forty_less, .onecol_sixty_less, .onecol_thirtyfive_less {
+	position: relative;
+	margin-right: 0%;
+	float: left;
+}
+.one_full,
+.one_half,
+.one_third,
+.one_fourth,
+.one_fifth,
+.two_third,
+.three_fourth,
+.onecol_forty,
+.onecol_sixty,
+.onecol_thirtyfive,
+.one_full_less,
+.one_half_less,
+.one_third_less,
+.one_fourth_less,
+.one_fifth_less,
+.two_third_less,
+.three_fourth_less,
+.onecol_forty_less,
+.onecol_sixty_less,
+.onecol_thirtyfive_less {
+	width: 100%;
+	margin-bottom: 50px;
+}
+.last {
+	margin-right: 0 !important;
+	margin-bottom: 0 !important;
+}
+
+.container {
+	width: 440px;
+	margin: auto;
+}
+
+.logo {
+	width: 50%;
+}
+.menu_main {
+	width: 93%;
+	position: absolute;
+}
+
+.top_nav .left {
+	width: 100%;
+	text-align: left;
+}
+.top_nav .right {
+	width: 100%;
+	text-align: left;
+}
+.top_nav ul.topsocial {
+	float: left;
+}
+
+.slidermar40 {
+	margin-top: 80px;
+}
+
+
+}
+
+
+
+
+
+@media only screen and (max-width: 479px){
+
+/* columns */
+.one_half, .one_third, .one_fourth, .two_third, .three_fourth, .one_fifth, .onecol_forty, .onecol_sixty, .onecol_thirtyfive,
+.one_half_less, .one_third_less, .one_fourth_less, .two_third_less, .three_fourth_less, .one_fifth_less, .onecol_forty_less, .onecol_sixty_less, .onecol_thirtyfive_less {
+	position: relative;
+	margin-right: 0%;
+	float: left;
+}
+.one_full,
+.one_half,
+.one_third,
+.one_fourth,
+.one_fifth,
+.two_third,
+.three_fourth,
+.onecol_forty,
+.onecol_sixty,
+.onecol_thirtyfive,
+.one_full_less,
+.one_half_less,
+.one_third_less,
+.one_fourth_less,
+.one_fifth_less,
+.two_third_less,
+.three_fourth_less,
+.onecol_forty_less,
+.onecol_sixty_less,
+.onecol_thirtyfive_less {
+	width: 100%;
+	margin-bottom: 50px;
+}
+.last {
+	margin-right: 0 !important;
+	margin-bottom: 0 !important;
+}
+
+.container {
+	width: 300px;
+	margin: auto;
+}
+
+.logo {
+	width: 75%;
+}
+.menu_main {
+	width: 93%;
+	position: absolute;
+}
+
+.top_nav .left {
+	width: 100%;
+	text-align: left;
+	font-size: 12px;
+}
+.top_nav .right {
+	width: 100%;
+	text-align: left;
+	font-size: 12px;
+}
+.top_nav ul.topsocial {
+	float: left;
+}
+.top_nav .topsocial li {
+	margin: 0px 8px 0px 0px;
+}
+
+.slidermar40 {
+	margin-top: 80px;
+}
+
+
+
+}
