@@ -5650,3 +5650,99 @@ img.ajax-loader { display: none; }
 .feature_section6211 .highlightblue .button_2:hover {
   background: #28BF68;
 }
+
+
+@media only screen and (max-width: 480px) {
+
+  header.header {
+    top: 105px;
+  }
+
+  .top_nav .left a {
+    display: block;
+    padding-top: 10px;
+  }
+
+  .top_nav .left a:first-of-type {
+    padding-top: 0;
+  }
+
+  .top_nav ul.topsocial {
+    padding: 0 0 12px;
+  }
+
+  .top_nav .right {
+    padding-bottom: 0px;
+  }
+
+  
+}
+
+@media only screen and (max-width: 768px) {
+
+  .feature_section6 {
+    padding: 50px 0;
+  }
+
+  .feature_section6 .box1,
+  .feature_section6 .box2,
+  .feature_section6 .box3,
+  .feature_section6 .box4 {
+    width: 100%;
+    padding-top: 30px;
+  }
+
+  .feature_section6 .box1{
+    padding-top: 0;
+  }
+
+  .header .menu_main {
+    position: relative;
+    width: 100%;
+  }
+  
+}
+
+
+@media only screen and (min-width: 769px) and (max-width: 1170px) {
+  .feature_section6 .box1,
+  .feature_section6 .box2,
+  .feature_section6 .box3,
+  .feature_section6 .box4 {
+    width: 50%;
+    padding-top: 30px;
+  }
+
+  .feature_section6 .box1,
+  .feature_section6 .box2 {
+    padding-top: 0;
+  }
+}
+
+@media only screen and (max-width: 999px){
+	.compact .header{
+		padding-bottom: 10px !important;
+	}
+}
+
+@media only screen and (min-width: 479px) and (max-width: 639px) {
+	body:not(.compact) .header {
+		top: 85px !important;
+	}
+}
+
+@media only screen and (max-width: 639px) {
+	.scrollup{
+	    bottom: 45px !important;
+	}
+}
+	
+@media only screen and (max-width: 479px){
+	.newsletter .input_submit {
+		padding: 16px !important;
+	}
+}
+
+.menu_main {
+	position: relative !important;
+}

@@ -239,7 +239,7 @@ function dimox_breadcrumbs() {
 
 
 function add_menuclass($ulclass) {
-  return preg_replace('/<a /', '<a class="callme_button" ', $ulclass, 1);
+  return preg_replace('/<a /', '<a class="callme_button " ', $ulclass, 1);
 }
 add_filter('wp_nav_menu','add_menuclass');
 
