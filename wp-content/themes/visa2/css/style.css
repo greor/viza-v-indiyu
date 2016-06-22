@@ -5746,3 +5746,7 @@ img.ajax-loader { display: none; }
 .menu_main {
 	position: relative !important;
 }
+
+.feature_section6 .box3 h4 {
+	margin-left: 40px;
+}
