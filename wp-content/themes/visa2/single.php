@@ -14,8 +14,11 @@
       </div>
       <?php } ?>
       <?php the_post(); ?>
-      <?php the_date('d.m.Y'); ?>
-      <?php the_content(); ?>
+      <?php the_date('d.m.Y'); ?><br><br>
+	  <div class="article-text">
+		<?php the_content(); ?>
+	  </div>
+      
 
       <div class="clearfix divider_line1"></div>
       <div class="sharepost">

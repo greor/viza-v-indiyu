@@ -5750,3 +5750,46 @@ img.ajax-loader { display: none; }
 .feature_section6 .box3 h4 {
 	margin-left: 40px;
 }
+
+.article-text ol,
+.article-text ul {
+	list-style-position: outside !important;
+	padding-left: 20px !important;
+
+}
+.article-text li {
+	padding-bottom: 5px;
+}
+
+.article-text ul li {
+	list-style-type: disc !important;
+}
+
+.article-text ul ul li,
+.article-text ol ul li {
+	list-style-type: circle !important;
+}
+
+.article-text ul ul, 
+.article-text ol ol, 
+.article-text ul ol, 
+.article-text ol ul {
+	padding-left: 50px !important;
+	margin-top: 10px !important;
+	margin-bottom: 10px !important;
+}
+
+.article-text,
+.article-text p {
+	color: #000 !important;
+}
+
+.master-slider-parent {
+	margin-top: 85px;
+}
+
+@media only screen and (max-width: 999px){
+	.master-slider-parent {
+		margin-top: 72px;
+	}
+}
