@@ -84,7 +84,12 @@
             <?php the_content(); ?>
           </div> 
           <div class="clearfix margin_bottom2"></div>
-          <a class="button_2" href="">Скачать анкету</a>
+		  <?php if(get_field('visa-type_anketa')): ?>
+		  <a class="button_2" href="<?php the_field('visa-type_anketa'); ?>">Скачать анкету</a>
+		  <?php endif; ?>
+		  
+		  
+          
         </div>
       </div>
       <!-- Put this script tag to the <head> of your page -->
