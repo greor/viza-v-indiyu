@@ -14,14 +14,18 @@
       <?php ;} ?>
       <?php if(ot_get_option("contact_email")){ ?>
       <div class="box2">
-        <i class="fa fa-envelope-o"></i>
-        <h4 class="caps">Email<b><a href="mailto:<?php echo ot_get_option("contact_email"); ?>"><?php echo ot_get_option("contact_email"); ?></a></b></h4>
+	    <a href="mailto:<?php echo ot_get_option("contact_email"); ?>">
+          <i class="fa fa-envelope-o"></i>
+          <h4 class="caps">Email<b><?php echo ot_get_option("contact_email"); ?></b></h4>
+		</a>
       </div>
       <?php ;} ?>
       <?php if(ot_get_option("address")){ ?>
       <div class="box3">
-        <i class="fa fa-map-marker"></i>
-        <h4 class="caps">Наш адрес <b><?php echo ot_get_option("address"); ?></b></h4>
+	    <a href="/contacts/#map">
+          <i class="fa fa-map-marker"></i>
+          <h4 class="caps">Наш адрес <b><?php echo ot_get_option("address"); ?></b></h4>
+		</a>
       </div>
       <?php ;} ?>
       <div class="box4">
