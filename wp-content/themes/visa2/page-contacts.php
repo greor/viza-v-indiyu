@@ -30,7 +30,7 @@ get_header();
         </div>
       </div>
 
-      <div class="one_half last">
+      <div id="address" class="one_half last">
         <div class="address_info">
           <h4>Наш адрес</h4>
           <ul>
@@ -43,7 +43,7 @@ get_header();
           </ul>
         </div>
         <div class="clearfix"></div>
-        <h4 id="map">Как нас найти</h4>
+        <h4>Как нас найти</h4>
         <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=aBk0yVIsft64UmihVUtq5Zwp1V8Bias8&width=561&height=350&lang=ru_RU&sourceType=constructor&scroll=true"></script>
       </div>
     </div>

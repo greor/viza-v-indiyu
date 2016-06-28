@@ -22,7 +22,7 @@
       <?php ;} ?>
       <?php if(ot_get_option("address")){ ?>
       <div class="box3">
-	    <a href="/contacts/#map">
+	    <a href="/contacts/#address">
           <i class="fa fa-map-marker"></i>
           <h4 class="caps">Наш адрес <b><?php echo ot_get_option("address"); ?></b></h4>
 		</a>
