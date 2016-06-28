@@ -3,11 +3,13 @@
     <div class="container">
       <?php if(ot_get_option("contact_phone")){ ?>
       <div class="box1">
-        <i class="fa fa-mobile-phone"></i>
-        <?php
-        $phone = str_replace(" ","",ot_get_option("contact_phone_tel"));
+	    <?php
+          $phone = str_replace(" ","",ot_get_option("contact_phone_tel"));
         ?>
-        <h4 class="caps">Телефон <a href="tel:<?php echo $phone; ?>"><b><?php echo ot_get_option("contact_phone"); ?></b></a></h4>
+	    <a href="tel:<?php echo $phone; ?>">
+          <i class="fa fa-mobile-phone"></i>
+          <h4 class="caps">Телефон <b><?php echo ot_get_option("contact_phone"); ?></b></h4>
+		</a>
       </div>
       <?php ;} ?>
       <?php if(ot_get_option("contact_email")){ ?>
