@@ -5793,3 +5793,10 @@ img.ajax-loader { display: none; }
 		margin-top: 72px;
 	}
 }
+
+.home-text,
+.home-text p {
+	color: #000 !important;
+	font-size: 16px !important;
+}
+

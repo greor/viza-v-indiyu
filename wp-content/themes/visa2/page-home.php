@@ -13,7 +13,9 @@ get_header();
   <div class="clearfix"></div>
   <div class="one_full stcode_title8">
     <?php the_post(); ?>
-    <?php the_content(); ?>
+	<div class="home-text">
+		<?php the_content(); ?>
+	</div>
   </div>
 </div>
 
